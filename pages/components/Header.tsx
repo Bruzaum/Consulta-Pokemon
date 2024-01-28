@@ -10,7 +10,7 @@ const HeaderContainer = styled.header`
   align-items: center;
   padding: 20px;
   transition: padding 0.5s ease;
-  height: 105px;
+  height: 9vh;
 `;
 
 const LogoContainer = styled.div<{ isExpanded: boolean }>`
@@ -68,7 +68,7 @@ const AppointmentButton = styled.button`
   color: #fff;
   border: none;
   padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 36px;
   cursor: pointer;
 `;
 

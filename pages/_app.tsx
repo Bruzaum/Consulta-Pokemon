@@ -1,5 +1,6 @@
 import type { AppProps } from 'next/app'
 import { Inter } from '@next/font/google'
+import 'normalize.css'
 
 const inter = Inter({ subsets: ['latin'] });
 
