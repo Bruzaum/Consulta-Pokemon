@@ -10,7 +10,7 @@ const HeaderContainer = styled.header`
   align-items: center;
   padding: 20px;
   transition: padding 0.5s ease;
-  height: 9vh;
+  height: 7vh;
 `;
 
 const LogoContainer = styled.div<{ isExpanded: boolean }>`
@@ -89,13 +89,15 @@ const Header: React.FC = () => {
         <Link href="/">
             <Image src={logo} alt="Logo" />
         </Link>
-        <span>Centro Pokemon</span>
+        <span>Centro Pokémon</span>
       </LogoContainer>
       <MenuContainer>
-        <Link href="/quem-somos">
+        <Link href="/about-us">
           Quem somos
         </Link>
-        <AppointmentButton>Agendar Consulta</AppointmentButton>
+        <Link href="/schedule-appointment">
+          <AppointmentButton>Agendar Consulta</AppointmentButton>
+        </Link>
       </MenuContainer>
     </HeaderContainer>
   );

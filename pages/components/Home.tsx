@@ -32,7 +32,7 @@ const Home: React.FC = () => {
   return (
     <HomeContainer>
       <Image src={homeBackground} alt="Imagem de Fundo com Pokemons na praia" />
-      <HomeText>Cuidamos bem do seu pokemón, para ele cuidar bem de você</HomeText>
+      <HomeText>Cuidamos bem do seu pokémon, para ele cuidar bem de você</HomeText>
     </HomeContainer>
   );
 };
