@@ -1,12 +1,14 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import ScheduleAppointmentPage from "../components/ScheduleAppointment";
+// import ScheduleAppointmentPage from "../components/ScheduleAppointment";
+import Nav from "../components/Nav";
 
 export default function ScheduleAppointment() {
   return (
     <>
       <Header />
-      <ScheduleAppointmentPage />
+      <Nav page="Agendar Consulta" subtitle="Recupere seus pokémons em 5 segundos." />
+      {/* <ScheduleAppointmentPage /> */}
       <Footer />
     </>
 
