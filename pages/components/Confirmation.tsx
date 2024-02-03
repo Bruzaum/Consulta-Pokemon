@@ -50,7 +50,7 @@ const Confirmation: React.FC = () => {
     <ConfirmationCard>
         <h3>Consulta Agendada</h3>
         <MdOutlineVerified />
-        <p>Seu agendamento para dia xx/xx/xxxx, às 00h00m, para 0x pokémons foi realizado com sucesso!</p>
+        <p>Seu agendamento foi realizado com sucesso!</p>
         <Link href="/schedule-appointment">
             <NewAppointmentButton>Fazer Novo Agendamento</NewAppointmentButton>
         </Link>

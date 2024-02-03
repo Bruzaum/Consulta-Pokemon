@@ -4,7 +4,7 @@ import Image from 'next/image';
 import homeBackground from '../../public/images/pokemon-hero.jpg';
 
 const HomeContainer = styled.div`
-  height: 80vh;
+  height: 81vh;
   width: 100%;
   position: relative;
   text-align: center;

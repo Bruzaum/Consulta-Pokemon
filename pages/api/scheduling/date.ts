@@ -23,5 +23,8 @@ export default function handler(
         dateStringArray.push(date.toLocaleDateString())
     })
 
-    res.status(200).json(dateStringArray)
+    console.log(dateStringArray)
+    return res.status(200).json(dateStringArray)
+
+
 }

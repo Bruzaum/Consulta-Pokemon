@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import styled, { css } from 'styled-components';
-import logo from '../../public/images/white-pokeball.svg'
+import logo from '../../public/images/white-pokeball.svg';
+
 
 const HeaderContainer = styled.header`
   display: flex;
